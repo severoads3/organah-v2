@@ -151,8 +151,8 @@ export const APP_CONTENT: AppContent = {
         price: "R$ 89,90",
         badge: "Mais Vendido",
         image: {
-          url: "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=600&q=80&auto=format&fit=crop",
-          alt: "Xícara de Supercoffee funcional com espuma",
+          url: "/assets/supercoffee.jpg",
+          alt: "Supercoffee 3.0 by Caffeine Army — Chocolate, Vanilla Latte e Smart Energy, disponíveis na Organnah",
         },
       },
       {
@@ -164,8 +164,8 @@ export const APP_CONTENT: AppContent = {
         price: "R$ 54,90",
         badge: "Novidade",
         image: {
-          url: "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?w=600&q=80&auto=format&fit=crop",
-          alt: "Pó de maca peruana orgânica em tigela de madeira",
+          url: "/assets/maca_peruana.png",
+          alt: "Maca Peruana Orgânica disponível na Organnah",
         },
       },
       {
@@ -176,7 +176,7 @@ export const APP_CONTENT: AppContent = {
           "Blend artesanal de castanhas, amêndoas, nozes e macadâmia. Selecionadas para o máximo frescor.",
         price: "R$ 42,90",
         image: {
-          url: "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&q=80&auto=format&fit=crop",
+          url: "/assets/mix_nuts_premium.jfif",
           alt: "Mix de castanhas e nozes premium em pote",
         },
       },
@@ -188,8 +188,8 @@ export const APP_CONTENT: AppContent = {
           "Pó de cúrcuma de alta curcumina com pimenta preta para absorção otimizada. Anti-inflamatório natural.",
         price: "R$ 38,90",
         image: {
-          url: "https://images.unsplash.com/photo-1615485500704-8e990f9900f7?w=600&q=80&auto=format&fit=crop",
-          alt: "Cúrcuma em pó de cor laranja vibrante",
+          url: "/assets/curcuma_pura_extra.png",
+          alt: "Cúrcuma Pura Extra disponível na Organnah",
         },
       },
       {
@@ -200,8 +200,8 @@ export const APP_CONTENT: AppContent = {
           "Fibra solúvel premium que regula o trânsito intestinal e contribui para o controle da glicemia.",
         price: "R$ 31,90",
         image: {
-          url: "https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?w=600&q=80&auto=format&fit=crop",
-          alt: "Psyllium em flocos e sementes naturais",
+          url: "/assets/psyllium_em_flocos.png",
+          alt: "Psyllium em Flocos disponível na Organnah",
         },
       },
       {
@@ -213,8 +213,8 @@ export const APP_CONTENT: AppContent = {
         price: "R$ 47,90",
         badge: "Novidade",
         image: {
-          url: "https://images.unsplash.com/photo-1564890369478-c89ca6d9cde9?w=600&q=80&auto=format&fit=crop",
-          alt: "Xícara de chá adaptogênico com ervas ao redor",
+          url: "/assets/cha_adaptogenico.png",
+          alt: "Chá Adaptogênico disponível na Organnah",
         },
       },
     ],
