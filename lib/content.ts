@@ -176,7 +176,7 @@ export const APP_CONTENT: AppContent = {
           "Blend artesanal de castanhas, amêndoas, nozes e macadâmia. Selecionadas para o máximo frescor.",
         price: "R$ 42,90",
         image: {
-          url: "/assets/mix_nuts_premium.jfif",
+          url: "/assets/mix_nuts_v2.png",
           alt: "Mix de castanhas e nozes premium em pote",
         },
       },
@@ -266,8 +266,8 @@ export const APP_CONTENT: AppContent = {
     phone: "(47) 9 9848-8535",
     email: "contato@organnah.com.br",
     whatsappHref: "https://wa.me/5547998488535",
-    instagramHandle: "@organnah.bc",
-    instagramHref: "https://instagram.com/organnah.bc",
+    instagramHandle: "@organnahloja",
+    instagramHref: "https://www.instagram.com/organnahloja/",
     workingHours: "Seg-Sex: 08:00 - 19:00 | Sáb: 08:00 - 18:00",
     copyrightName: "Organnah Produtos Naturais",
     navLinks: [

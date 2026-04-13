@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { Leaf, MapPin, Phone, Mail, Clock, ExternalLink } from "lucide-react";
+import Image from "next/image";
+import { MapPin, Phone, Mail, Clock, ExternalLink } from "lucide-react";
 import type { FooterContent } from "@/lib/types";
 
 interface FooterProps {
@@ -22,13 +23,15 @@ export default function Footer({ content, copyrightName }: FooterProps) {
           <div className="flex flex-col gap-5">
             <Link
               href="/"
-              className="flex items-center gap-2 text-white"
               aria-label={`${copyrightName} - voltar ao início`}
             >
-              <Leaf size={22} strokeWidth={2} aria-hidden="true" />
-              <span className="text-xl font-bold tracking-tight">
-                {copyrightName}
-              </span>
+              <Image
+                src="/assets/logo_footer.png"
+                alt={`Logo ${copyrightName}`}
+                width={200}
+                height={90}
+                className="h-20 w-auto object-contain"
+              />
             </Link>
             <p className="max-w-xs text-sm leading-relaxed text-white/70">
               {content.description}

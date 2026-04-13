@@ -2,7 +2,8 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { Menu, X, Leaf } from "lucide-react";
+import Image from "next/image";
+import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { cn } from "@/lib/utils";
 import Button from "@/components/ui/Button";
@@ -38,13 +39,16 @@ export default function Navbar({ content }: NavbarProps) {
         {/* Logo */}
         <Link
           href="/"
-          className="flex items-center gap-2.5 text-[var(--color-primary)]"
           aria-label={`${content.logoText} - página inicial`}
         >
-          <Leaf size={22} strokeWidth={2} aria-hidden="true" />
-          <span className="text-xl font-bold tracking-tight">
-            {content.logoText}
-          </span>
+          <Image
+            src="/logo.png"
+            alt={`Logo ${content.logoText}`}
+            width={160}
+            height={72}
+            className="h-11 w-auto object-contain"
+            priority
+          />
         </Link>
 
         {/* Links desktop */}
