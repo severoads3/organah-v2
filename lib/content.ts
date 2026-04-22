@@ -24,8 +24,7 @@ export const APP_CONTENT: AppContent = {
       "Curadoria exclusiva de suplementos, especiarias gourmet, fibras, snacks saudáveis e chás especiais. Qualidade premium, atendimento humanizado em Balneário Camboriú.",
     city: "Balneário Camboriú",
     siteUrl: "https://organnah.com.br",
-    ogImage:
-      "https://images.unsplash.com/photo-1542838132-92c53300491e?w=1200&q=80&auto=format&fit=crop",
+    ogImage: "https://organnah.com.br/assets/og_preview.png",
   },
 
   // ─────────────────────────────────────────────────────────────────
@@ -67,7 +66,7 @@ export const APP_CONTENT: AppContent = {
       { value: "100%", label: "Natural" },
     ],
     image: {
-      url: "https://images.unsplash.com/photo-1542838132-92c53300491e?w=1000&q=85&auto=format&fit=crop",
+      url: "/assets/ambiente_organnah.JPEG",
       alt: "Interior da boutique Organnah, exibindo prateleiras com produtos naturais selecionados",
       instruction:
         "Para usar foto da loja: coloque o arquivo em /public/assets/ e substitua a url por '/assets/loja-hero.jpg'",
